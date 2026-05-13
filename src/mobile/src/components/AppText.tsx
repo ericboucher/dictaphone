@@ -21,7 +21,7 @@ type AppTextProps = TextProps & {
   align?: 'left' | 'right' | 'center'
 }
 
-const typography = StyleSheet.create({
+export const typography = StyleSheet.create({
   base: {
     includeFontPadding: false,
     fontFamily: 'Marianne-Regular',
